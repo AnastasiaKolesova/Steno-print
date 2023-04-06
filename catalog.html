@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20230406231203" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20230406231203">
+	<title>Каталог товаров</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="header__block">
+		<div class="header__container _container">
+			<a href="index.html" data-da=".header__top, 670, 0" class="header__logo"><img src="img/icons/logo.svg"
+					alt=""></a>
+			<div class="header__content">
+				<div class="header__top top-header">
+					<form data-da=".popup-search__body, 670, 0" action="#" class="top-header__search">
+						<input class="top-header__input" type="text" placeholder="Поиск...">
+						<button class="top-header__submit _icon-search"></button>
+					</form>
+					<div data-da=".menu__content, 991, 1" class="top-header__contacts contacts-block">
+						<div class="contacts-block__text">Позвонить нам:</div>
+						<a href="tel:+75558889866" class="contacts-block__contact">+7 (555) 888-98-66</a>
+					</div>
+					<div data-da=".menu__content, 991, 2" class="top-header__contacts contacts-block">
+						<div class="contacts-block__text">Написать нам:</div>
+						<a href="mailto:info@stenoprint.ru"
+							class="contacts-block__contact contacts-block__contact_email">info@stenoprint.ru</a>
+					</div>
+					<div class="top-header__icons">
+						<a data-da=".menu__block-icon, 670, 0" href="#" class="top-header__insta _icon-insta"></a>
+						<a data-da=".menu__block-icon, 670, 1" href="#" class="top-header__vk _icon-vk"></a>
+						<a href="#" data-up="#pop-1" class="top-header__search-icon _icon-search"></a>
+						<a href="tel:+75558889866" class="top-header__phone _icon-phone"></a>
+						<div tabindex="0" class="top-header__menu-icon">
+							<span class="menu__icon"><span></span></span>
+						</div>
+					</div>
+
+
+				</div>
+				<div class="header__bottom bottom-header">
+					<a href="catalog.html" data-da=".menu__content, 991, first" class="bottom-header__btn _icon-catalog">Каталог товаров
+						<span class="_icon-arrownext"></span></a>
+					<div class="bottom-header__menu menu">
+						<nav class="menu__body">
+							<div class="menu__content">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="services.html" class="menu__link">Наши услуги</a>
+										<span class="menu__arrow _icon-arrowdown"></span>
+										<ul class="menu__sub-list">
+											<li>
+												<a href="details.html" class="menu__sub-link">Создание уникального дизайна в квартире, доме, офисе</a>
+											</li>
+											<li>
+												<a href="office-decor.html" class="menu__sub-link">Оформление офисов и коммерческих помещений в фирменном стиле</a>
+											</li>
+											<li>
+												<a href="glass.html" class="menu__sub-link">Функциональный дизайн. Нанесение указателей, вывесок</a>
+											</li>
+											<li>
+												<a href="details.html" class="menu__sub-link">Печать фотографий и коллажей</a>
+											</li>
+										</ul>
+									</li>
+									<li class="menu__item"><a href="about.html" class="menu__link">О студии</a></li>
+									<li class="menu__item"><a href="portfolio.html" class="menu__link">Портфолио</a></li>
+									<li class="menu__item"><a href="blog.html" class="menu__link">Блог</a></li>
+									<li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+								</ul>
+								<div class="menu__block-icon"></div>
+							</div>
+
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- тут блок с каталогом-->
+	<div class="header__catalog catalog-header">
+		<div class="catalog-header__container _container">
+			<nav class="catalog-header__body">
+				<button class="catalog-header__btn-back">Назад в меню</button>
+				<div class="catalog-header__column">
+					<div class="catalog-header__menu menu-catalog">
+						<div class="menu-catalog__img"><picture><source srcset="img/header/catalog/1.webp" type="image/webp"><img src="img/header/catalog/1.png" alt="картинка"></picture></div>
+						<a href="#" class="menu-catalog__category">Дизайнерские обои</a>
+						<ul class="menu-catalog__list">
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Дизайнерские обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Фирменные обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Виниловые обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Дизайнерские обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Фирменные обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Виниловые обои</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="catalog-header__column">
+					<div class="catalog-header__menu menu-catalog">
+						<div class="menu-catalog__img"><picture><source srcset="img/header/catalog/2.webp" type="image/webp"><img src="img/header/catalog/2.png" alt="картинка"></picture></div>
+						<a href="" class="menu-catalog__category">Дизайнерские обои</a>
+						<ul class="menu-catalog__list">
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Дизайнерские обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Фирменные обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Виниловые обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Дизайнерские обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Фирменные обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Виниловые обои</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="catalog-header__column">
+					<div class="catalog-header__menu menu-catalog">
+						<div class="menu-catalog__img"><picture><source srcset="img/header/catalog/3.webp" type="image/webp"><img src="img/header/catalog/3.png" alt="картинка"></picture></div>
+						<a href="#" class="menu-catalog__category">Дизайнерские обои</a>
+						<ul class="menu-catalog__list">
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Дизайнерские обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Фирменные обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Виниловые обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Дизайнерские обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Фирменные обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Виниловые обои</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="catalog-header__column">
+					<div class="catalog-header__menu menu-catalog">
+						<div class="menu-catalog__img"><picture><source srcset="img/header/catalog/2.webp" type="image/webp"><img src="img/header/catalog/2.png" alt="картинка"></picture></div>
+						<a href="#" class="menu-catalog__category">Дизайнерские обои</a>
+						<ul class="menu-catalog__list">
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Дизайнерские обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Фирменные обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Виниловые обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Дизайнерские обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Фирменные обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Виниловые обои</a></li>
+						</ul>
+					</div>
+				</div>
+				<a href="catalog.html" class="catalog-header__link-catalog _icon-arrownext">Смотреть весь каталог</a>
+			</nav>
+		</div>
+	</div>
+	<!--блок попап-->
+	<div class="header__popup popup popup-search" id="pop-1">
+		<div class="popup__body">
+			<div class="popup__container _container">
+				<div class="popup__content">
+					<div class="popup__block popup-search__block">
+						<div class="popup-search__title">Введите артикул или название</div>
+						<div class="popup-search__body"></div>
+					</div>
+					<div class="popup__buttons">
+						<button type="button" class="popup__close _icon-cross"></button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</header>
+		<main class="page page-catalog">
+			<section class="page-catalog__title-block title-block-page">
+				<div class="title-block-page__container _container">
+					<nav class="title-block-page__breadcrumbs breadcrumbs-page">
+						<ul class="breadcrumbs-page__list">
+							<li class="breadcrumbs-page__item"><a href="index.html" class="breadcrumbs-page__link breadcrumbs-page__link_home _icon-home"></a></li>
+							<li class="breadcrumbs-page__item"><span class="breadcrumbs-page__current">Каталог товаров</span></li>
+						</ul>
+					</nav>
+					<div class="title-block-page__content title-page">
+						<h1 class="title-page__title">Каталог товаров</h1>
+					</div>
+				</div>
+			</section>
+			<div class="page-catalog__product-categories product-categories">
+				<div class="product-categories__container _container">
+					<div class="product-categories__body">
+						<div class="product-categories__item item-category">
+							<div class="item-category__images">
+								<div class="item-category__image"><picture><source srcset="img/page-catalog/category/1.webp" type="image/webp"><img src="img/page-catalog/category/1.png" alt=""></picture></div>
+								<div class="item-category__image"><picture><source srcset="img/page-catalog/category/2.webp" type="image/webp"><img src="img/page-catalog/category/2.png" alt=""></picture></div>
+								<div class="item-category__image"><picture><source srcset="img/page-catalog/category/3.webp" type="image/webp"><img src="img/page-catalog/category/3.png" alt=""></picture></div>
+							</div>
+							<div class="item-category__content">
+								<a href="#" class="item-category__name">Дизайнерские обои</a>
+								<div class="item-category__quantity">150 товаров</div>
+							</div>
+						</div>
+						<div class="product-categories__item item-category">
+							<div class="item-category__images">
+								<div class="item-category__image"><picture><source srcset="img/page-catalog/category/1.webp" type="image/webp"><img src="img/page-catalog/category/1.png" alt=""></picture></div>
+								<div class="item-category__image"><picture><source srcset="img/page-catalog/category/2.webp" type="image/webp"><img src="img/page-catalog/category/2.png" alt=""></picture></div>
+								<div class="item-category__image"><picture><source srcset="img/page-catalog/category/3.webp" type="image/webp"><img src="img/page-catalog/category/3.png" alt=""></picture></div>
+							</div>
+							<div class="item-category__content">
+								<a href="#" class="item-category__name">Дизайнерские обои</a>
+								<div class="item-category__quantity">150 товаров</div>
+							</div>
+						</div>
+						<div class="product-categories__item item-category">
+							<div class="item-category__images">
+								<div class="item-category__image"><picture><source srcset="img/page-catalog/category/1.webp" type="image/webp"><img src="img/page-catalog/category/1.png" alt=""></picture></div>
+								<div class="item-category__image"><picture><source srcset="img/page-catalog/category/2.webp" type="image/webp"><img src="img/page-catalog/category/2.png" alt=""></picture></div>
+								<div class="item-category__image"><picture><source srcset="img/page-catalog/category/3.webp" type="image/webp"><img src="img/page-catalog/category/3.png" alt=""></picture></div>
+							</div>
+							<div class="item-category__content">
+								<a href="#" class="item-category__name">Дизайнерские обои</a>
+								<div class="item-category__quantity">150 товаров</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page-catalog__content content-catalog">
+				<div class="content-catalog__container _container">
+					<div class="content-catalog__body">
+						<div class="content-catalog__filter filter-catalog">
+							<div class="filter-catalog__block-tablet">
+								<div class="filter-catalog__block-show-filter block-show-filter">
+									<div class="block-show-filter__button _icon-arrowdown">Показать фильтры</div>
+									<div class="block-show-filter__body">
+										<div class="block-show-filter__close _icon-cross">Скрыть фильтры</div>
+										<div class="block-show-filter__filters-block"></div>
+									</div>
+								</div>
+							</div>
+							<div data-da=".block-show-filter__filters-block, 1199, 1" class="filter-catalog__body"
+								data-spoilers>
+								<div class="filter-catalog__item">
+									<button class="filter-catalog__btn _icon-arrowdown" tabindex="-1" data-spoiler-title
+										type="button">Коллекция</button>
+									<div class="filter-catalog__options">
+										<div class="filter-catalog__checkboxes checkbox-collection">
+											<div class="checkbox-collection__checkbox">
+												<div class="checkbox-collection__label-block">
+													<label class="checkbox-collection__label">
+														<input id="gradient" name="check" type="checkbox"
+															class="checkbox-collection__checkbox-real check required">
+														<span class="checkbox-collection__checkbox-custom"></span>
+														Градиенты
+													</label>
+													<div class="checkbox-collection__quantity">13</div>
+												</div>
+											</div>
+											<div class="checkbox-collection__checkbox">
+												<div class="checkbox-collection__label-block">
+													<label class="checkbox-collection__label">
+														<input id="gradient2" name="check" type="checkbox"
+															class="checkbox-collection__checkbox-real check required">
+														<span class="checkbox-collection__checkbox-custom"></span>
+														Акварель
+													</label>
+													<div class="checkbox-collection__quantity">24</div>
+												</div>
+											</div>
+											<div class="checkbox-collection__checkbox">
+												<div class="checkbox-collection__label-block">
+													<label class="checkbox-collection__label">
+														<input id="gradient3" name="check" type="checkbox"
+															class="checkbox-collection__checkbox-real check required">
+														<span class="checkbox-collection__checkbox-custom"></span>
+														Модерн
+													</label>
+													<div class="checkbox-collection__quantity">16</div>
+												</div>
+											</div>
+											<div class="checkbox-collection__checkbox">
+												<div class="checkbox-collection__label-block">
+													<label class="checkbox-collection__label">
+														<input id="gradient4" name="check" type="checkbox"
+															class="checkbox-collection__checkbox-real check required">
+														<span class="checkbox-collection__checkbox-custom"></span>
+														Цветы
+													</label>
+													<div class="checkbox-collection__quantity">42</div>
+												</div>
+											</div>
+											<div class="checkbox-collection__checkbox">
+												<div class="checkbox-collection__label-block">
+													<label class="checkbox-collection__label">
+														<input id="gradient5" name="check" type="checkbox"
+															class="checkbox-collection__checkbox-real check required">
+														<span class="checkbox-collection__checkbox-custom"></span>
+														Классика
+													</label>
+													<div class="checkbox-collection__quantity">31</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="filter-catalog__item">
+									<button class="filter-catalog__btn _icon-arrowdown" tabindex="-1" data-spoiler-title
+										type="button">Материал</button>
+									<div class="filter-catalog__options">
+										<div class="filter-catalog__checkboxes checkbox-materials">
+											<div class="checkbox-materials__checkbox">
+												<div class="checkbox-materials__label-block">
+													<label class="checkbox-materials__label">
+														<input id="gradient6" name="check" type="checkbox"
+															class="checkbox-materials__checkbox-real check required">
+														<span class="checkbox-materials__checkbox-custom"><img
+																src="img/page-catalog/filter/1.png" alt=""></span>
+														<span class="checkbox-materials__name-block">
+															<span class="checkbox-materials__name">Серия R GOLD</span>
+															<span class="checkbox-materials__text">Зеркальная пленка</span>
+														</span>
+													</label>
+													<div class="checkbox-materials__quantity">20</div>
+												</div>
+											</div>
+											<div class="checkbox-materials__checkbox">
+												<div class="checkbox-materials__label-block">
+													<label class="checkbox-materials__label">
+														<input id="gradient7" name="check" type="checkbox"
+															class="checkbox-materials__checkbox-real check required">
+														<span class="checkbox-materials__checkbox-custom"><img
+																src="img/page-catalog/filter/2.png" alt=""></span>
+														<span class="checkbox-materials__name-block">
+															<span class="checkbox-materials__name">Серия R BLUE</span>
+															<span class="checkbox-materials__text">Тонирующая пленка</span>
+														</span>
+													</label>
+													<div class="checkbox-materials__quantity">15</div>
+												</div>
+											</div>
+											<div class="checkbox-materials__checkbox">
+												<div class="checkbox-materials__label-block">
+													<label class="checkbox-materials__label">
+														<input id="gradient8" name="check" type="checkbox"
+															class="checkbox-materials__checkbox-real check required">
+														<span class="checkbox-materials__checkbox-custom"><img
+																src="img/page-catalog/filter/3.png" alt=""></span>
+														<span class="checkbox-materials__name-block">
+															<span class="checkbox-materials__name">Серия SR PS</span>
+															<span class="checkbox-materials__text">Матовые тонирующие</span>
+														</span>
+													</label>
+													<div class="checkbox-materials__quantity">43</div>
+												</div>
+											</div>
+											<div class="checkbox-materials__checkbox">
+												<div class="checkbox-materials__label-block">
+													<label class="checkbox-materials__label">
+														<input id="gradient8" name="check" type="checkbox"
+															class="checkbox-materials__checkbox-real check required">
+														<span class="checkbox-materials__checkbox-custom"><img
+																src="img/page-catalog/filter/4.png" alt=""></span>
+														<span class="checkbox-materials__name-block">
+															<span class="checkbox-materials__name">Серия SR PS</span>
+															<span class="checkbox-materials__text">Матовые тонирующие</span>
+														</span>
+													</label>
+													<div class="checkbox-materials__quantity">43</div>
+												</div>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<div class="filter-catalog__item">
+									<button class="filter-catalog__btn _icon-arrowdown" tabindex="-1" data-spoiler-title
+										type="button">Цвет</button>
+									<div class="filter-catalog__options">
+										<div class="filter-catalog__checkboxes checkbox-collection">
+											<div class="checkbox-collection__checkbox">
+												<div class="checkbox-collection__label-block">
+													<label class="checkbox-collection__label">
+														<input id="gradient10" name="check" type="checkbox"
+															class="checkbox-collection__checkbox-real check required">
+														<span class="checkbox-collection__checkbox-custom"></span>
+														Белый
+													</label>
+													<div class="checkbox-collection__quantity">13</div>
+												</div>
+											</div>
+											<div class="checkbox-collection__checkbox">
+												<div class="checkbox-collection__label-block">
+													<label class="checkbox-collection__label">
+														<input id="gradient11" name="check" type="checkbox"
+															class="checkbox-collection__checkbox-real check required">
+														<span class="checkbox-collection__checkbox-custom"></span>
+														Красный
+													</label>
+													<div class="checkbox-collection__quantity">24</div>
+												</div>
+											</div>
+											<div class="checkbox-collection__checkbox">
+												<div class="checkbox-collection__label-block">
+													<label class="checkbox-collection__label">
+														<input id="gradient12" name="check" type="checkbox"
+															class="checkbox-collection__checkbox-real check required">
+														<span class="checkbox-collection__checkbox-custom"></span>
+														Черный
+													</label>
+													<div class="checkbox-collection__quantity">16</div>
+												</div>
+											</div>
+											<div class="checkbox-collection__checkbox">
+												<div class="checkbox-collection__label-block">
+													<label class="checkbox-collection__label">
+														<input id="gradient13" name="check" type="checkbox"
+															class="checkbox-collection__checkbox-real check required">
+														<span class="checkbox-collection__checkbox-custom"></span>
+														Зеленый
+													</label>
+													<div class="checkbox-collection__quantity">42</div>
+												</div>
+											</div>
+											<div class="checkbox-collection__checkbox">
+												<div class="checkbox-collection__label-block">
+													<label class="checkbox-collection__label">
+														<input id="gradient14" name="check" type="checkbox"
+															class="checkbox-collection__checkbox-real check required">
+														<span class="checkbox-collection__checkbox-custom"></span>
+														Мульти
+													</label>
+													<div class="checkbox-collection__quantity">31</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="filter-catalog__item">
+									<button class="filter-catalog__btn _icon-arrowdown" tabindex="-1" data-spoiler-title
+										type="button">Цена</button>
+									<div class="filter-catalog__options">
+										<div class="filter-catalog__price filter-price">
+											<div id="range-slider" class="filter-price__slider"></div>
+											<div class="filter-price__inputs">
+												<label class="filter-price__label">
+													<span class="filter-price__text">от</span>
+													<input id="input-0" type="number" min="500" max="100000" placeholder="500"
+														class="filter-price__input">
+												</label>
+												<label class="filter-price__label">
+													<span class="filter-price__text">до</span>
+													<input id="input-1" type="number" min="500" max="100000" placeholder="100000"
+														class="filter-price__input">
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="filter-catalog__buttons">
+									<button class="filter-catalog__apply btn btn__red">Применить</button>
+									<button class="filter-catalog__reset btn btn__white _icon-cross">Сбросить</button>
+								</div>
+							</div>
+						</div>
+						<div class="content-catalog__rows">
+							<div class="content-catalog__products-block products-block">
+								<div class="products-block__cards">
+									<article class="products-block__card card-product">
+										<div class="card-product__labels">
+											<div class="card-product__label card-product__label_sale">-25%</div>
+											<div class="card-product__label card-product__label_popular">Популярное</div>
+										</div>
+										<a href="product.html" class="card-product__image _ibg"><img src="img/page/popular/1.png"
+												alt=""></a>
+										<div class="card-product__content">
+											<div class="card-product__name-product name-product">
+												<h3><a href="product.html" class="name-product__name">Floraison</a></h3>
+												<div class="name-product__price">от 2 552 ₽ <span>/ м<sup>2</sup></span></div>
+											</div>
+											<div class="card-product__code-product code-product">
+												<div class="code-product__vendor-code">Артикул: 11039</div>
+												<div class="code-product__old-price">от 3 452 ₽ <span>/ м<sup>2</sup></span></div>
+											</div>
+										</div>
+										<div class="card-product__details details-block">
+											<div class="details-block__body">
+												<a href="product.html" class="details-block__button btn btn__red">Подробнее</a>
+												<a href="#" data-up="#pop-6" class="details-block__buy">Купить в 1 клик</a>
+											</div>
+										</div>
+									</article>
+									<article class="products-block__card card-product">
+										<div class="card-product__labels">
+											<div class="card-product__label card-product__label_popular">Популярное</div>
+											<div class="card-product__label card-product__label_new">Новинка</div>
+										</div>
+										<a href="product.html" class="card-product__image _ibg"><img src="img/page/popular/2.png"
+												alt=""></a>
+										<div class="card-product__content">
+											<div class="card-product__name-product name-product">
+												<h3><a href="product.html" class="name-product__name">Floraison Floraison Floraison
+													Floraison Floraison Floraison</a></h3>
+												<div class="name-product__price">от 2 552 ₽ <span>/ м<sup>2</sup></span></div>
+											</div>
+											<div class="card-product__code-product code-product">
+												<div class="code-product__vendor-code">Артикул: 11039</div>
+												<div class="code-product__old-price">от 3 452 ₽ <span>/ м<sup>2</sup></span></div>
+											</div>
+										</div>
+										<div class="card-product__details details-block">
+											<div class="details-block__body">
+												<a href="product.html" class="details-block__button btn btn__red">Подробнее</a>
+												<a href="#" data-up="#pop-6" class="details-block__buy">Купить в 1 клик</a>
+											</div>
+										</div>
+									</article>
+									<article class="products-block__card card-product">
+										<div class="card-product__labels">
+											<div class="card-product__label card-product__label_instock">В наличии</div>
+											<div class="card-product__label card-product__label_new">Новинка</div>
+										</div>
+										<a href="product.html" class="card-product__image _ibg"><img src="img/page/popular/3.png"
+												alt=""></a>
+										<div class="card-product__content">
+											<div class="card-product__name-product name-product">
+												<h3><a href="product.html" class="name-product__name">Floraison</a></h3>
+												<div class="name-product__price">от 2 552 ₽ <span>/ м<sup>2</sup></span></div>
+											</div>
+											<div class="card-product__code-product code-product">
+												<div class="code-product__vendor-code">Артикул: 11039</div>
+												<div class="code-product__old-price">от 3 452 ₽ <span>/ м<sup>2</sup></span></div>
+											</div>
+										</div>
+										<div class="card-product__details details-block">
+											<div class="details-block__body">
+												<a href="product.html" class="details-block__button btn btn__red">Подробнее</a>
+												<a href="#" data-up="#pop-6" class="details-block__buy">Купить в 1 клик</a>
+											</div>
+										</div>
+									</article>
+									<article class="products-block__card card-product">
+										<div class="card-product__labels">
+											<div class="card-product__label card-product__label_sale">-25%</div>
+											<div class="card-product__label card-product__label_new">Новинка</div>
+										</div>
+										<a href="product.html" class="card-product__image _ibg"><img src="img/page/popular/4.png"
+												alt=""></a>
+										<div class="card-product__content">
+											<div class="card-product__name-product name-product">
+												<h3><a href="product.html" class="name-product__name">Floraison</a></h3>
+												<div class="name-product__price">от 2 552 ₽ <span>/ м<sup>2</sup></span></div>
+											</div>
+											<div class="card-product__code-product code-product">
+												<div class="code-product__vendor-code">Артикул: 11039</div>
+												<div class="code-product__old-price">от 3 452 ₽ <span>/ м<sup>2</sup></span></div>
+											</div>
+										</div>
+										<div class="card-product__details details-block">
+											<div class="details-block__body">
+												<a href="product.html" class="details-block__button btn btn__red">Подробнее</a>
+												<a href="#" data-up="#pop-6" class="details-block__buy">Купить в 1 клик</a>
+											</div>
+										</div>
+									</article>
+									<article class="products-block__card card-product">
+										<div class="card-product__labels">
+											<div class="card-product__label card-product__label_sale">-25%</div>
+											<div class="card-product__label card-product__label_popular">Популярное</div>
+										</div>
+										<a href="product.html" class="card-product__image _ibg"><img src="img/page/popular/1.png"
+												alt=""></a>
+										<div class="card-product__content">
+											<div class="card-product__name-product name-product">
+												<h3><a href="product.html" class="name-product__name">Floraison</a></h3>
+												<div class="name-product__price">от 2 552 ₽ <span>/ м<sup>2</sup></span></div>
+											</div>
+											<div class="card-product__code-product code-product">
+												<div class="code-product__vendor-code">Артикул: 11039</div>
+												<div class="code-product__old-price">от 3 452 ₽ <span>/ м<sup>2</sup></span></div>
+											</div>
+										</div>
+										<div class="card-product__details details-block">
+											<div class="details-block__body">
+												<a href="product.html" class="details-block__button btn btn__red">Подробнее</a>
+												<a href="#" data-up="#pop-6" class="details-block__buy">Купить в 1 клик</a>
+											</div>
+										</div>
+									</article>
+									<article class="products-block__card card-product">
+										<div class="card-product__labels">
+											<div class="card-product__label card-product__label_popular">Популярное</div>
+											<div class="card-product__label card-product__label_new">Новинка</div>
+										</div>
+										<a href="product.html" class="card-product__image _ibg"><img src="img/page/popular/2.png"
+												alt=""></a>
+										<div class="card-product__content">
+											<div class="card-product__name-product name-product">
+												<h3><a href="product.html" class="name-product__name">Floraison Floraison Floraison
+													Floraison Floraison Floraison</a></h3>
+												<div class="name-product__price">от 2 552 ₽ <span>/ м<sup>2</sup></span></div>
+											</div>
+											<div class="card-product__code-product code-product">
+												<div class="code-product__vendor-code">Артикул: 11039</div>
+												<div class="code-product__old-price">от 3 452 ₽ <span>/ м<sup>2</sup></span></div>
+											</div>
+										</div>
+										<div class="card-product__details details-block">
+											<div class="details-block__body">
+												<a href="product.html" class="details-block__button btn btn__red">Подробнее</a>
+												<a href="#" data-up="#pop-6" class="details-block__buy">Купить в 1 клик</a>
+											</div>
+										</div>
+									</article>
+									<article class="products-block__card card-product">
+										<div class="card-product__labels">
+											<div class="card-product__label card-product__label_instock">В наличии</div>
+											<div class="card-product__label card-product__label_new">Новинка</div>
+										</div>
+										<a href="product.html" class="card-product__image _ibg"><img src="img/page/popular/3.png"
+												alt=""></a>
+										<div class="card-product__content">
+											<div class="card-product__name-product name-product">
+												<h3><a href="product.html" class="name-product__name">Floraison</a></h3>
+												<div class="name-product__price">от 2 552 ₽ <span>/ м<sup>2</sup></span></div>
+											</div>
+											<div class="card-product__code-product code-product">
+												<div class="code-product__vendor-code">Артикул: 11039</div>
+												<div class="code-product__old-price">от 3 452 ₽ <span>/ м<sup>2</sup></span></div>
+											</div>
+										</div>
+										<div class="card-product__details details-block">
+											<div class="details-block__body">
+												<a href="product.html" class="details-block__button btn btn__red">Подробнее</a>
+												<a href="#" data-up="#pop-6" class="details-block__buy">Купить в 1 клик</a>
+											</div>
+										</div>
+									</article>
+									<article class="products-block__card card-product">
+										<div class="card-product__labels">
+											<div class="card-product__label card-product__label_sale">-25%</div>
+											<div class="card-product__label card-product__label_new">Новинка</div>
+										</div>
+										<a href="product.html" class="card-product__image _ibg"><img src="img/page/popular/4.png"
+												alt=""></a>
+										<div class="card-product__content">
+											<div class="card-product__name-product name-product">
+												<h3><a href="product.html" class="name-product__name">Floraison</a></h3>
+												<div class="name-product__price">от 2 552 ₽ <span>/ м<sup>2</sup></span></div>
+											</div>
+											<div class="card-product__code-product code-product">
+												<div class="code-product__vendor-code">Артикул: 11039</div>
+												<div class="code-product__old-price">от 3 452 ₽ <span>/ м<sup>2</sup></span></div>
+											</div>
+										</div>
+										<div class="card-product__details details-block">
+											<div class="details-block__body">
+												<a href="product.html" class="details-block__button btn btn__red">Подробнее</a>
+												<a href="#" data-up="#pop-6" class="details-block__buy">Купить в 1 клик</a>
+											</div>
+										</div>
+									</article>
+								</div>
+							</div>
+							<div class="content-catalog__pages pages-item">
+								<span class="pages-item__arrow _icon-arrowprev"></span>
+								<div class="pages-item__page _active">01</div>
+								<div class="pages-item__page">02</div>
+								<div class="pages-item__page">03</div>
+								<span class="pages-item__arrow _icon-arrownext"></span>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="popup" id="pop-6">
+				<div class="popup__body">
+					<div class="popup__container _container">
+						<div class="popup__content ">
+							<div class="popup__block order-popup">
+								<div class="order-popup__body">
+									<div class="order-popup__rows">
+										<div class="order-popup__title-block">
+											<h2 class="order-popup__title">Оформление заказа</h2>
+											<div class="order-popup__subtitle subtitle-item">Проверьте ваш заказ, заполните форму и
+												наш менеджер свяжется с вами для уточнения деталей в ближайшее время.</div>
+										</div>
+										<div class="order-popup__product-block details-popup">
+											<div class="details-popup__image _ibg"><picture><source srcset="img/page-product/1.webp" type="image/webp"><img src="img/page-product/1.png" alt=""></picture></div>
+											<div class="details-popup__details">
+												<div class="details-popup__name-items">
+													<div class="details-popup__name">Floraison</div>
+													<div class="details-popup__category">Дизайнерские обои</div>
+												</div>
+												<div class="details-popup__price">2 552 ₽ <span>/ 50м<sup>2</sup></span></div>
+											</div>
+										</div>
+										<div class="order-popup__question-block">
+											<div class="order-popup__question">Требуется ли доработка выбранного
+												изображения дизайнером?</div>
+											<div class="order-popup__buttons">
+												<button class="order-popup__btn btn btn__white">Да</button>
+												<button class="order-popup__btn btn btn__white">Нет</button>
+											</div>
+										</div>
+										<div class="order-popup__button-order btn btn__grey">Оформить заказ</div>
+									</div>
+								</div>
+							</div>
+							<div class="popup__buttons">
+								<button type="button" class="popup__close _icon-cross"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+	<div class="footer__container _container">
+		<div class="footer__body">
+			<div class="footer__spoilers">
+				<div data-spoilers="991" class="footer__column column-footer-catalog">
+					<button tabindex="-1" data-spoiler-title type="button"
+						class="column-footer-catalog__title footer-title article-title _active-spoiler _icon-arrowdown">Каталог товаров</button>
+					<div class="column-footer-catalog__content"> 
+						<div class="column-footer-catalog__menu">
+							<ul class="column-footer-catalog__list">
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Дизайнерские обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Фирменные обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Виниловые обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Дизайнерские обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Фирменные обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Виниловые обои</a>
+								</li>
+							</ul>
+							<ul class="column-footer-catalog__list">
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Виниловые обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Дизайнерские обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Фирменные обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Виниловые обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Дизайнерские обои</a>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+
+				</div>
+				<div data-spoilers="991" class="footer__column column-footer-service">
+					<button tabindex="-1" data-spoiler-title type="button"
+						class="column-footer-service__title footer-title article-title _icon-arrowdown">Наши услуги</button>
+					<div class="column-footer-catalog__content">
+						<div class="column-footer-service__menu">
+							<ul class="column-footer-service__list">
+								<li class="column-footer-service__item">
+									<a href="details.html" class="column-footer-service__link menu-catalog__link">Создание уникального
+										дизайна
+										в квартире, доме,
+										офисе</a>
+								</li>
+								<li class="column-footer-service__item">
+									<a href="office-decor.html" class="column-footer-service__link menu-catalog__link">Оформление офисов
+										и коммерческих помещений
+										в фирменном стиле</a>
+								</li>
+								<li class="column-footer-service__item">
+									<a href="glass.html" class="column-footer-service__link menu-catalog__link">Функциональный дизайн.
+										Нанесение указателей,
+										вывесок</a>
+								</li>
+								<li class="column-footer-service__item">
+									<a href="details.html" class="column-footer-service__link menu-catalog__link">Печать фотографий
+										и коллажей</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="footer__nospoilers">
+				<nav class="footer__column column-footer-menu">
+					<ul class="column-footer-menu__list">
+						<li class="column-footer-menu__item">
+							<a href="about.html" class="column-footer-menu__link footer-title">О студии</a>
+						</li>
+						<li class="column-footer-menu__item">
+							<a href="portfolio.html" class="column-footer-menu__link footer-title">Портфолио</a>
+						</li>
+						<li class="column-footer-menu__item">
+							<a href="blog.html" class="column-footer-menu__link footer-title">Блог</a>
+						</li>
+						<li class="column-footer-menu__item">
+							<a href="contacts.html" class="column-footer-menu__link footer-title">Контакты </a>
+						</li>
+					</ul>
+				</nav>
+				<div class="footer__column column-footer-contacts">
+					<div class="column-footer-contacts__block contacts-block">
+						<div class="contacts-block__text">Позвонить нам:</div>
+						<a href="tel:+75558889866" class="contacts-block__contact">+7 (555) 888-98-66</a>
+					</div>
+					<div class="column-footer-contacts__block contacts-block">
+						<div class="contacts-block__text">Написать нам:</div>
+						<a href="mailto:info@stenoprint.ru"
+							class="contacts-block__contact contacts-block__contact_email">info@stenoprint.ru</a>
+					</div>
+					<div class="column-footer-contacts__icons">
+						<a href="#" class="column-footer-contacts__icon _icon-insta"></a>
+						<a href="#" class="column-footer-contacts__icon _icon-vk"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20230406231203"></script>
+	<script src="js/app.min.js?_v=20230406231203"></script>
+</body>
+
+</html>

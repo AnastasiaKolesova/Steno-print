@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20230406231203" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20230406231203">
+	<title>Блог</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="header__block">
+		<div class="header__container _container">
+			<a href="index.html" data-da=".header__top, 670, 0" class="header__logo"><img src="img/icons/logo.svg"
+					alt=""></a>
+			<div class="header__content">
+				<div class="header__top top-header">
+					<form data-da=".popup-search__body, 670, 0" action="#" class="top-header__search">
+						<input class="top-header__input" type="text" placeholder="Поиск...">
+						<button class="top-header__submit _icon-search"></button>
+					</form>
+					<div data-da=".menu__content, 991, 1" class="top-header__contacts contacts-block">
+						<div class="contacts-block__text">Позвонить нам:</div>
+						<a href="tel:+75558889866" class="contacts-block__contact">+7 (555) 888-98-66</a>
+					</div>
+					<div data-da=".menu__content, 991, 2" class="top-header__contacts contacts-block">
+						<div class="contacts-block__text">Написать нам:</div>
+						<a href="mailto:info@stenoprint.ru"
+							class="contacts-block__contact contacts-block__contact_email">info@stenoprint.ru</a>
+					</div>
+					<div class="top-header__icons">
+						<a data-da=".menu__block-icon, 670, 0" href="#" class="top-header__insta _icon-insta"></a>
+						<a data-da=".menu__block-icon, 670, 1" href="#" class="top-header__vk _icon-vk"></a>
+						<a href="#" data-up="#pop-1" class="top-header__search-icon _icon-search"></a>
+						<a href="tel:+75558889866" class="top-header__phone _icon-phone"></a>
+						<div tabindex="0" class="top-header__menu-icon">
+							<span class="menu__icon"><span></span></span>
+						</div>
+					</div>
+
+
+				</div>
+				<div class="header__bottom bottom-header">
+					<a href="catalog.html" data-da=".menu__content, 991, first" class="bottom-header__btn _icon-catalog">Каталог товаров
+						<span class="_icon-arrownext"></span></a>
+					<div class="bottom-header__menu menu">
+						<nav class="menu__body">
+							<div class="menu__content">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="services.html" class="menu__link">Наши услуги</a>
+										<span class="menu__arrow _icon-arrowdown"></span>
+										<ul class="menu__sub-list">
+											<li>
+												<a href="details.html" class="menu__sub-link">Создание уникального дизайна в квартире, доме, офисе</a>
+											</li>
+											<li>
+												<a href="office-decor.html" class="menu__sub-link">Оформление офисов и коммерческих помещений в фирменном стиле</a>
+											</li>
+											<li>
+												<a href="glass.html" class="menu__sub-link">Функциональный дизайн. Нанесение указателей, вывесок</a>
+											</li>
+											<li>
+												<a href="details.html" class="menu__sub-link">Печать фотографий и коллажей</a>
+											</li>
+										</ul>
+									</li>
+									<li class="menu__item"><a href="about.html" class="menu__link">О студии</a></li>
+									<li class="menu__item"><a href="portfolio.html" class="menu__link">Портфолио</a></li>
+									<li class="menu__item"><a href="blog.html" class="menu__link">Блог</a></li>
+									<li class="menu__item"><a href="contacts.html" class="menu__link">Контакты</a></li>
+								</ul>
+								<div class="menu__block-icon"></div>
+							</div>
+
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- тут блок с каталогом-->
+	<div class="header__catalog catalog-header">
+		<div class="catalog-header__container _container">
+			<nav class="catalog-header__body">
+				<button class="catalog-header__btn-back">Назад в меню</button>
+				<div class="catalog-header__column">
+					<div class="catalog-header__menu menu-catalog">
+						<div class="menu-catalog__img"><picture><source srcset="img/header/catalog/1.webp" type="image/webp"><img src="img/header/catalog/1.png" alt="картинка"></picture></div>
+						<a href="#" class="menu-catalog__category">Дизайнерские обои</a>
+						<ul class="menu-catalog__list">
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Дизайнерские обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Фирменные обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Виниловые обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Дизайнерские обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Фирменные обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Виниловые обои</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="catalog-header__column">
+					<div class="catalog-header__menu menu-catalog">
+						<div class="menu-catalog__img"><picture><source srcset="img/header/catalog/2.webp" type="image/webp"><img src="img/header/catalog/2.png" alt="картинка"></picture></div>
+						<a href="" class="menu-catalog__category">Дизайнерские обои</a>
+						<ul class="menu-catalog__list">
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Дизайнерские обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Фирменные обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Виниловые обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Дизайнерские обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Фирменные обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Виниловые обои</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="catalog-header__column">
+					<div class="catalog-header__menu menu-catalog">
+						<div class="menu-catalog__img"><picture><source srcset="img/header/catalog/3.webp" type="image/webp"><img src="img/header/catalog/3.png" alt="картинка"></picture></div>
+						<a href="#" class="menu-catalog__category">Дизайнерские обои</a>
+						<ul class="menu-catalog__list">
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Дизайнерские обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Фирменные обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Виниловые обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Дизайнерские обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Фирменные обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Виниловые обои</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="catalog-header__column">
+					<div class="catalog-header__menu menu-catalog">
+						<div class="menu-catalog__img"><picture><source srcset="img/header/catalog/2.webp" type="image/webp"><img src="img/header/catalog/2.png" alt="картинка"></picture></div>
+						<a href="#" class="menu-catalog__category">Дизайнерские обои</a>
+						<ul class="menu-catalog__list">
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Дизайнерские обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Фирменные обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Виниловые обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Дизайнерские обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Фирменные обои</a></li>
+							<li class="menu-catalog__item"><a href="" class="menu-catalog__link">Виниловые обои</a></li>
+						</ul>
+					</div>
+				</div>
+				<a href="catalog.html" class="catalog-header__link-catalog _icon-arrownext">Смотреть весь каталог</a>
+			</nav>
+		</div>
+	</div>
+	<!--блок попап-->
+	<div class="header__popup popup popup-search" id="pop-1">
+		<div class="popup__body">
+			<div class="popup__container _container">
+				<div class="popup__content">
+					<div class="popup__block popup-search__block">
+						<div class="popup-search__title">Введите артикул или название</div>
+						<div class="popup-search__body"></div>
+					</div>
+					<div class="popup__buttons">
+						<button type="button" class="popup__close _icon-cross"></button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</header>
+		<main class="page page-blog">
+			<section class="page-blog__title-block title-block-page">
+				<div class="title-block-page__container _container">
+					<nav class="title-block-page__breadcrumbs breadcrumbs-page">
+						<ul class="breadcrumbs-page__list">
+							<li class="breadcrumbs-page__item"><a href="index.html" class="breadcrumbs-page__link breadcrumbs-page__link_home _icon-home"></a></li>
+							<li class="breadcrumbs-page__item"><span class="breadcrumbs-page__current">Блог</span></li>
+						</ul>
+					</nav>
+					<div class="title-block-page__content title-page">
+						<h1 class="title-page__title">Блог</h1>
+					</div>
+				</div>
+			</section>
+			<div class="page-blog__search search-blog">
+				<div class="search-blog__container _container">
+					<form class="search-blog__body">
+						<div class="search-blog__input">
+							<input type="text" placeholder="Поиск в блоге...">
+							<button class="search-blog__submit _icon-search"></button>
+						</div>
+						<div class="search-blog__select _icon-arrowdown">
+							<select tabindex="0" name="category" id="category">
+								<option value="all">Все категории</option>
+								<option value="val1">Антигравийная пленка</option>
+								<option value="val2">Антигравийная пленка</option>
+								<option value="val3">Антигравийная пленка</option>
+							</select>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="page-blog__content blog-content">
+				<div class="blog-content__container _container">
+					<div class="blog-content__body">
+						<article class="blog-content__card card-blog">
+							<div class="card-blog__block-image">
+								<div class="card-blog__labels">
+									<div class="card-blog__label card-blog__label_membrane">Антигравийная пленка</div>
+								</div>
+								<a href="blogdetails.html" class="card-blog__image _ibg"><picture><source srcset="img/page/blog/1.webp" type="image/webp"><img src="img/page/blog/1.png" alt=""></picture></a>
+							</div>
+							<div class="card-blog__content">
+								<h3><a href="blogdetails.html" class="card-blog__title">Как бы то ни было, граница обучения кадров ни к чему
+									нас не обязывает</a></h3>
+								<a href="blogdetails.html" class="card-blog__text">Есть над чем задуматься: акционеры крупнейших компаний
+									будут разоблачены. Однозначно, активно развивающиеся страны третьего мира...</a>
+								<div class="card-blog__items">
+									<div class="card-blog__view _icon-eye">3833</div>
+									<div class="card-blog__date">22 мая 2022 </div>
+								</div>
+							</div>
+						</article>
+						<article class="blog-content__card card-blog">
+							<div class="card-blog__block-image">
+								<div class="card-blog__labels">
+									<div class="card-blog__label card-blog__label_membrane">Антигравийная пленка</div>
+								</div>
+								<a href="blogdetails.html" class="card-blog__image _ibg"><picture><source srcset="img/page/blog/2.webp" type="image/webp"><img src="img/page/blog/2.png" alt=""></picture></a>
+							</div>
+							<div class="card-blog__content"> 
+								<h3><a href="blogdetails.html" class="card-blog__title">Как бы то ни было, граница обучения кадров ни к чему
+									нас не обязывает</a></h3>
+								<a href="blogdetails.html" class="card-blog__text">Есть над чем задуматься: акционеры крупнейших компаний
+									будут разоблачены. Однозначно, активно развивающиеся страны третьего мира...</a>
+								<div class="card-blog__items">
+									<div class="card-blog__view _icon-eye">3833</div>
+									<div class="card-blog__date">22 мая 2022 </div>
+								</div>
+							</div>
+						</article>
+						<article class="blog-content__card card-blog">
+							<div class="card-blog__block-image">
+								<div class="card-blog__labels">
+									<div class="card-blog__label card-blog__label_membrane">Антигравийная пленка</div>
+								</div>
+								<a href="blogdetails.html" class="card-blog__image _ibg"><picture><source srcset="img/page/blog/3.webp" type="image/webp"><img src="img/page/blog/3.png" alt=""></picture></a>
+							</div>
+							<div class="card-blog__content">
+								<h3>
+									<a href="blogdetails.html" class="card-blog__title">Как бы то ни было, граница обучения кадров ни к чему
+									нас не обязывает</a>
+								</h3>
+								<a href="blogdetails.html" class="card-blog__text">Есть над чем задуматься: акционеры крупнейших компаний
+									будут разоблачены. Однозначно, активно развивающиеся страны третьего мира...</a>
+								<div class="card-blog__items">
+									<div class="card-blog__view _icon-eye">3833</div>
+									<div class="card-blog__date">22 мая 2022 </div>
+								</div>
+							</div>
+						</article>
+						<article class="blog-content__card card-blog">
+							<div class="card-blog__block-image">
+								<div class="card-blog__labels">
+									<div class="card-blog__label card-blog__label_membrane">Антигравийная пленка</div>
+								</div>
+								<a href="blogdetails.html" class="card-blog__image _ibg"><picture><source srcset="img/page/blog/2.webp" type="image/webp"><img src="img/page/blog/2.png" alt=""></picture></a>
+							</div>
+							<div class="card-blog__content">
+								<h3>
+									<a href="blogdetails.html" class="card-blog__title">Как бы то ни было, граница обучения кадров ни к чему
+									нас не обязывает</a>
+								</h3>
+								<a href="blogdetails.html" class="card-blog__text">Есть над чем задуматься: акционеры крупнейших компаний
+									будут разоблачены. Однозначно, активно развивающиеся страны третьего мира...</a>
+								<div class="card-blog__items">
+									<div class="card-blog__view _icon-eye">3833</div>
+									<div class="card-blog__date">22 мая 2022 </div>
+								</div>
+							</div>
+						</article>
+						<article class="blog-content__card card-blog">
+							<div class="card-blog__block-image">
+								<div class="card-blog__labels">
+									<div class="card-blog__label card-blog__label_membrane">Антигравийная пленка</div>
+								</div>
+								<a href="blogdetails.html" class="card-blog__image _ibg"><picture><source srcset="img/page/blog/3.webp" type="image/webp"><img src="img/page/blog/3.png" alt=""></picture></a>
+							</div>
+							<div class="card-blog__content">
+								<h3>
+									<a href="blogdetails.html" class="card-blog__title">Как бы то ни было, граница обучения кадров ни к чему
+									нас не обязывает</a>
+								</h3>
+								<a href="blogdetails.html" class="card-blog__text">Есть над чем задуматься: акционеры крупнейших компаний
+									будут разоблачены. Однозначно, активно развивающиеся страны третьего мира...</a>
+								<div class="card-blog__items">
+									<div class="card-blog__view _icon-eye">3833</div>
+									<div class="card-blog__date">22 мая 2022 </div>
+								</div>
+							</div>
+						</article>
+						<article class="blog-content__card card-blog">
+							<div class="card-blog__block-image">
+								<div class="card-blog__labels">
+									<div class="card-blog__label card-blog__label_membrane">Антигравийная пленка</div>
+								</div>
+								<a href="blogdetails.htmlblogdetails.htmlblogdetails.html" class="card-blog__image _ibg"><picture><source srcset="img/page/blog/1.webp" type="image/webp"><img src="img/page/blog/1.png" alt=""></picture></a>
+							</div>
+							<div class="card-blog__content">
+								<h3>
+									<a href="blogdetails.htmlblogdetails.htmlblogdetails.html" class="card-blog__title">Как бы то ни было, граница обучения кадров ни к чему
+									нас не обязывает</a>
+								</h3>
+								<a href="blogdetails.htmlblogdetails.htmlblogdetails.html" class="card-blog__text">Есть над чем задуматься: акционеры крупнейших компаний
+									будут разоблачены. Однозначно, активно развивающиеся страны третьего мира...</a>
+								<div class="card-blog__items">
+									<div class="card-blog__view _icon-eye">3833</div>
+									<div class="card-blog__date">22 мая 2022 </div>
+								</div>
+							</div>
+						</article>
+						<article class="blog-content__card card-blog">
+							<div class="card-blog__block-image">
+								<div class="card-blog__labels">
+									<div class="card-blog__label card-blog__label_membrane">Антигравийная пленка</div>
+								</div>
+								<a href="blogdetails.htmlblogdetails.html" class="card-blog__image _ibg"><picture><source srcset="img/page/blog/1.webp" type="image/webp"><img src="img/page/blog/1.png" alt=""></picture></a>
+							</div>
+							<div class="card-blog__content">
+								<h3>
+									<a href="blogdetails.htmlblogdetails.html" class="card-blog__title">Как бы то ни было, граница обучения кадров ни к чему
+									нас не обязывает</a>
+								</h3>
+								
+								<a href="blogdetails.htmlblogdetails.html" class="card-blog__text">Есть над чем задуматься: акционеры крупнейших компаний
+									будут разоблачены. Однозначно, активно развивающиеся страны третьего мира...</a>
+								<div class="card-blog__items">
+									<div class="card-blog__view _icon-eye">3833</div>
+									<div class="card-blog__date">22 мая 2022 </div>
+								</div>
+							</div>
+						</article>
+						<article class="blog-content__card card-blog">
+							<div class="card-blog__block-image">
+								<div class="card-blog__labels">
+									<div class="card-blog__label card-blog__label_membrane">Антигравийная пленка</div>
+								</div>
+								<a href="blogdetails.html" class="card-blog__image _ibg"><picture><source srcset="img/page/blog/2.webp" type="image/webp"><img src="img/page/blog/2.png" alt=""></picture></a>
+							</div>
+							<div class="card-blog__content">
+								<h3>
+									<a href="blogdetails.html" class="card-blog__title">Как бы то ни было, граница обучения кадров ни к чему
+									нас не обязывает</a>
+								</h3>
+								<a href="blogdetails.html" class="card-blog__text">Есть над чем задуматься: акционеры крупнейших компаний
+									будут разоблачены. Однозначно, активно развивающиеся страны третьего мира...</a>
+								<div class="card-blog__items">
+									<div class="card-blog__view _icon-eye">3833</div>
+									<div class="card-blog__date">22 мая 2022 </div>
+								</div>
+							</div>
+						</article>
+						<article class="blog-content__card card-blog">
+							<div class="card-blog__block-image">
+								<div class="card-blog__labels">
+									<div class="card-blog__label card-blog__label_membrane">Антигравийная пленка</div>
+								</div>
+								<a href="blogdetails.html" class="card-blog__image _ibg"><picture><source srcset="img/page/blog/3.webp" type="image/webp"><img src="img/page/blog/3.png" alt=""></picture></a>
+							</div>
+							<div class="card-blog__content">
+								<h3>
+									<a href="blogdetails.html" class="card-blog__title">Как бы то ни было, граница обучения кадров ни к чему
+									нас не обязывает</a>
+								</h3>
+								<a href="blogdetails.html" class="card-blog__text">Есть над чем задуматься: акционеры крупнейших компаний
+									будут разоблачены. Однозначно, активно развивающиеся страны третьего мира...</a>
+								<div class="card-blog__items">
+									<div class="card-blog__view _icon-eye">3833</div>
+									<div class="card-blog__date">22 мая 2022 </div>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="blog-content__pages pages-item">
+						<span class="pages-item__arrow _icon-arrowprev"></span>
+						<div class="pages-item__page _active">01</div>
+						<div class="pages-item__page">02</div>
+						<div class="pages-item__page">03</div>
+						<span class="pages-item__arrow _icon-arrownext"></span>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+	<div class="footer__container _container">
+		<div class="footer__body">
+			<div class="footer__spoilers">
+				<div data-spoilers="991" class="footer__column column-footer-catalog">
+					<button tabindex="-1" data-spoiler-title type="button"
+						class="column-footer-catalog__title footer-title article-title _active-spoiler _icon-arrowdown">Каталог товаров</button>
+					<div class="column-footer-catalog__content"> 
+						<div class="column-footer-catalog__menu">
+							<ul class="column-footer-catalog__list">
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Дизайнерские обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Фирменные обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Виниловые обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Дизайнерские обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Фирменные обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Виниловые обои</a>
+								</li>
+							</ul>
+							<ul class="column-footer-catalog__list">
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Виниловые обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Дизайнерские обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Фирменные обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Виниловые обои</a>
+								</li>
+								<li class="column-footer-catalog__item">
+									<a href="" class="column-footer-catalog__link menu-catalog__link">Дизайнерские обои</a>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+
+				</div>
+				<div data-spoilers="991" class="footer__column column-footer-service">
+					<button tabindex="-1" data-spoiler-title type="button"
+						class="column-footer-service__title footer-title article-title _icon-arrowdown">Наши услуги</button>
+					<div class="column-footer-catalog__content">
+						<div class="column-footer-service__menu">
+							<ul class="column-footer-service__list">
+								<li class="column-footer-service__item">
+									<a href="details.html" class="column-footer-service__link menu-catalog__link">Создание уникального
+										дизайна
+										в квартире, доме,
+										офисе</a>
+								</li>
+								<li class="column-footer-service__item">
+									<a href="office-decor.html" class="column-footer-service__link menu-catalog__link">Оформление офисов
+										и коммерческих помещений
+										в фирменном стиле</a>
+								</li>
+								<li class="column-footer-service__item">
+									<a href="glass.html" class="column-footer-service__link menu-catalog__link">Функциональный дизайн.
+										Нанесение указателей,
+										вывесок</a>
+								</li>
+								<li class="column-footer-service__item">
+									<a href="details.html" class="column-footer-service__link menu-catalog__link">Печать фотографий
+										и коллажей</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="footer__nospoilers">
+				<nav class="footer__column column-footer-menu">
+					<ul class="column-footer-menu__list">
+						<li class="column-footer-menu__item">
+							<a href="about.html" class="column-footer-menu__link footer-title">О студии</a>
+						</li>
+						<li class="column-footer-menu__item">
+							<a href="portfolio.html" class="column-footer-menu__link footer-title">Портфолио</a>
+						</li>
+						<li class="column-footer-menu__item">
+							<a href="blog.html" class="column-footer-menu__link footer-title">Блог</a>
+						</li>
+						<li class="column-footer-menu__item">
+							<a href="contacts.html" class="column-footer-menu__link footer-title">Контакты </a>
+						</li>
+					</ul>
+				</nav>
+				<div class="footer__column column-footer-contacts">
+					<div class="column-footer-contacts__block contacts-block">
+						<div class="contacts-block__text">Позвонить нам:</div>
+						<a href="tel:+75558889866" class="contacts-block__contact">+7 (555) 888-98-66</a>
+					</div>
+					<div class="column-footer-contacts__block contacts-block">
+						<div class="contacts-block__text">Написать нам:</div>
+						<a href="mailto:info@stenoprint.ru"
+							class="contacts-block__contact contacts-block__contact_email">info@stenoprint.ru</a>
+					</div>
+					<div class="column-footer-contacts__icons">
+						<a href="#" class="column-footer-contacts__icon _icon-insta"></a>
+						<a href="#" class="column-footer-contacts__icon _icon-vk"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20230406231203"></script>
+	<script src="js/app.min.js?_v=20230406231203"></script>
+</body>
+
+</html>
